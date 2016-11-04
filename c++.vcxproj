@@ -45,6 +45,9 @@
     <ClCompile Include="chapter4\4-34-c.cpp" />
     <ClCompile Include="chapter5\5-10.cpp" />
     <ClCompile Include="chapter5\5-11.cpp" />
+    <ClCompile Include="chapter5\5-18.cpp" />
+    <ClCompile Include="chapter5\5-19.cpp" />
+    <ClCompile Include="chapter5\5-20.cpp" />
     <ClCompile Include="chapter5\5-8.cpp" />
     <ClCompile Include="chapter5\5-9.cpp" />
   </ItemGroup>
