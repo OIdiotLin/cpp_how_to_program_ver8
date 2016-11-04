@@ -43,6 +43,10 @@
     <ClCompile Include="chapter4\4-34-a.cpp" />
     <ClCompile Include="chapter4\4-34-b.cpp" />
     <ClCompile Include="chapter4\4-34-c.cpp" />
+    <ClCompile Include="chapter5\5-10.cpp" />
+    <ClCompile Include="chapter5\5-11.cpp" />
+    <ClCompile Include="chapter5\5-8.cpp" />
+    <ClCompile Include="chapter5\5-9.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{8F8E56AE-9F4F-456F-9C57-E8BEBE967244}</ProjectGuid>

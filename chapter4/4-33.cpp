@@ -4,8 +4,9 @@
 #include <iostream>
 using namespace std;
 
+#define sqr(x) ((x)*(x))
 bool isRightTriangle(const int &a, const int &b, const int &c) {
-	return (a == b && b == c);
+	return (sqr(a)==sqr(b)+sqr(c) || sqr(b)==sqr(a)+sqr(c) || sqr(c)==sqr(b)+sqr(a));
 }
 
 int main() {
