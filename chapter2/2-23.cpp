@@ -2,12 +2,11 @@
 // System:	Win 10
 // Problem:	2.23
 #include <iostream>
-#define INF (1<<30)
 using namespace std;
 
 // Use only the programming techniques mentioned in this chapter
 int main() {
-	int numberRead, numberMax = -INF, numberMin = INF;
+	int numberRead, numberMax = INT_MIN, numberMin = INT_MAX;
 	cout << "Please input 5 integers: ";
 	for (int i = 1;i <= 5;i++) {
 		cin >> numberRead;
