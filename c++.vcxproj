@@ -48,8 +48,14 @@
     <ClCompile Include="chapter5\5-18.cpp" />
     <ClCompile Include="chapter5\5-19.cpp" />
     <ClCompile Include="chapter5\5-20.cpp" />
+    <ClCompile Include="chapter5\5-22.cpp" />
     <ClCompile Include="chapter5\5-8.cpp" />
     <ClCompile Include="chapter5\5-9.cpp" />
+    <ClCompile Include="chapter6\6-11.cpp" />
+    <ClCompile Include="chapter6\6-12.cpp" />
+    <ClCompile Include="chapter6\6-18.cpp" />
+    <ClCompile Include="chapter6\6-20.cpp" />
+    <ClCompile Include="chapter6\6-24.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{8F8E56AE-9F4F-456F-9C57-E8BEBE967244}</ProjectGuid>

@@ -22,6 +22,9 @@
     <Filter Include="源文件\chapter5">
       <UniqueIdentifier>{58d9021b-836e-4dbb-8aba-7385a49d99f9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\chapter6">
+      <UniqueIdentifier>{fba98415-b9a1-4c25-9961-2926fec39934}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="chapter2\2-16.cpp">
@@ -116,6 +119,24 @@
     </ClCompile>
     <ClCompile Include="chapter5\5-20.cpp">
       <Filter>源文件\chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6\6-11.cpp">
+      <Filter>源文件\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6\6-12.cpp">
+      <Filter>源文件\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6\6-18.cpp">
+      <Filter>源文件\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter5\5-22.cpp">
+      <Filter>源文件\chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6\6-20.cpp">
+      <Filter>源文件\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6\6-24.cpp">
+      <Filter>源文件\chapter6</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -11,7 +11,7 @@ long long factorial(int x) {
 }
 
 int main() {
-	for (int i = 1;i <= 15;i += 2) {
+	for (int i = 1;i <= 5;i++) {
 		cout <<i<<"! =\t" << factorial(i) << endl;
 	}
 	return 0;
