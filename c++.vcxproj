@@ -62,6 +62,7 @@
     <ClCompile Include="chapter6\6-31.cpp" />
     <ClCompile Include="chapter6\6-33.cpp" />
     <ClCompile Include="chapter6\6-36.cpp" />
+    <ClCompile Include="chapter6\6-37.cpp" />
     <ClCompile Include="chapter6\6-38.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
