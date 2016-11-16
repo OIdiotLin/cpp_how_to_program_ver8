@@ -1,6 +1,6 @@
 // Author:	LHD
 // System:	Win 10
-// Problem:	6.33 (Towers of Hanoi)
+// Problem:	6.38 (Towers of Hanoi)
 #include <iostream>
 using namespace std;
 
