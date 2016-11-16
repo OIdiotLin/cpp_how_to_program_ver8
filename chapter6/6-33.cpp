@@ -1,6 +1,6 @@
 // Author:	LHD
 // System:	Win 10
-// Problem:	6.30 (Reverse Digits)
+// Problem:	6.33 (Coin Tossing)
 #include <iostream>
 #include <time.h>
 using namespace std;
