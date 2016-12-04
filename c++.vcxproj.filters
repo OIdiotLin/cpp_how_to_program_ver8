@@ -177,5 +177,8 @@
     <ClCompile Include="chapter7\7-20.cpp">
       <Filter>源文件\chapter7</Filter>
     </ClCompile>
+    <ClCompile Include="chapter7\7-24.cpp">
+      <Filter>源文件\chapter7</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
