@@ -23,9 +23,19 @@ bool isValid(int curRow) {
 
 void output() {
 	solutionsCount++;
+	for (int r = 0;r < BOARD_SIZE;r++) {
+		for (int c = 0;c < queenPos[r];c++)
+			cout << "0";
+		cout << "*";
+		for (int c = queenPos[r] + 1;c < BOARD_SIZE;c++)
+			cout << "0";
+		cout << endl;
+	}
+	cout << endl;
+	/*
 	for (int r = 0;r < BOARD_SIZE;r++)
 		cout << "(" << r << "," << queenPos[r] << ")";
-	cout << endl;
+	cout << endl;*/
 }
 
 void setQueen(int curRow) {	// set queen position in curRow
@@ -35,7 +45,7 @@ void setQueen(int curRow) {	// set queen position in curRow
 			if (curRow == BOARD_SIZE-1)
 				output();
 			else
-				setQueen(curRow + 1);
+				setQueen(curRow + 1); 
 		}
 	}
 }
