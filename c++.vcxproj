@@ -67,11 +67,13 @@
     <ClCompile Include="chapter6\6-51.cpp" />
     <ClCompile Include="chapter6\6-53.cpp" />
     <ClCompile Include="chapter7\7-15.cpp" />
+    <ClCompile Include="chapter7\7-17.cpp" />
     <ClCompile Include="chapter7\7-20.cpp" />
     <ClCompile Include="chapter7\7-24.cpp" />
     <ClCompile Include="chapter7\7-26.cpp" />
     <ClCompile Include="chapter7\7-29.cpp" />
     <ClCompile Include="chapter7\7-30.cpp" />
+    <ClCompile Include="chapter8\8-12.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{8F8E56AE-9F4F-456F-9C57-E8BEBE967244}</ProjectGuid>
