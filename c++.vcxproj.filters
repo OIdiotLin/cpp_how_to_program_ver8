@@ -201,5 +201,8 @@
     <ClCompile Include="chapter8\8-15.cpp">
       <Filter>源文件\chapter8</Filter>
     </ClCompile>
+    <ClCompile Include="chapter8\8-16.cpp">
+      <Filter>源文件\chapter8</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
