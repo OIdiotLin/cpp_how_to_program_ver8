@@ -174,4 +174,5 @@ int main() {
 	G.readMap();
 	G.findEntryAndExit();
 	G.start();
+	return 0;
 }
