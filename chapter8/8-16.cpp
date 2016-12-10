@@ -133,7 +133,7 @@ public:
 			if (map[i][size - 1] == PATH)
 				a[cnt++] = Position{ i,size - 1 };
 		}
-		for (int j = 0;j < size&&cnt <= 2;j++) {
+		for (int j = 0;j < size && cnt <= 2;j++) {
 			if (map[0][j] == PATH)
 				a[cnt++] = Position{ 0,j };
 			if (map[size - 1][j] == PATH)
