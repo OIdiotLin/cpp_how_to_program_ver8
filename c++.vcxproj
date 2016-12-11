@@ -76,6 +76,7 @@
     <ClCompile Include="chapter8\8-12.cpp" />
     <ClCompile Include="chapter8\8-15.cpp" />
     <ClCompile Include="chapter8\8-16.cpp" />
+    <ClCompile Include="chapter8\8-17.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{8F8E56AE-9F4F-456F-9C57-E8BEBE967244}</ProjectGuid>
