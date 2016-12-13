@@ -181,6 +181,7 @@ public:
 			}
 			if (explr.cur == exit) {
 				cout << "He made it!" << endl;
+				return;
 			}
 		}
 	}
