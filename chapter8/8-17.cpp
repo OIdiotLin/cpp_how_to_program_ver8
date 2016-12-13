@@ -12,7 +12,9 @@ using std::cin;
 using std::endl;
 using std::ofstream;
 
+#define MAX_PATH_POINT 90
 #define SHOW_INTERVAL 150
+//#define GEN_BY_SINGLE_PATH		// generation 
 
 inline void delay(int interval) {
 	clock_t t = clock();
@@ -61,7 +63,7 @@ private:
 			Explorer tmp = *(this);
 			tmp.turnRight();
 			Position R = tmp.next();
-			return map[R.x][R.y] == WALL;
+			return map[R.x][R.y] != PATH;
 		}
 		void turnRight() {
 			switch (towards) {
@@ -161,8 +163,8 @@ public:
 		else if (entry.y == 0)	explr.towards = right;
 		else if (entry.y == size - 1)	explr.towards = left;
 		explr.cur = entry;	// enter the entry
-
-		while (explr.cur != exit) {		// loop until get the exit
+		
+		while (true) {		// loop until get the exit
 			if (!explr.hasWallOnRightside(map))
 				explr.turnRight();
 
@@ -173,19 +175,29 @@ public:
 			else {
 				explr.turnLeft();
 			}
+			if (explr.cur == entry) {
+				cout << "He is trapped in the maze." << endl;
+				return ;
+			}
+			if (explr.cur == exit) {
+				cout << "He made it!" << endl;
+			}
 		}
 	}
 /*********************GENERATING MAZE*******************/
 	void generate() {
-		srand(time(NULL));
-		//ofstream mapFile;
-		//mapFile.open("maze.txt");
 
+		srand(time(NULL));
 		size = MAX_BOARD;
 		//mapFile << size << endl;
 		for (int i = 0;i < size;i++)
 			for (int j = 0;j < size;j++)
 				map[i][j] = WALL;
+
+#ifdef GEN_BY_SINGLE_PATH
+		//ofstream mapFile;
+		//mapFile.open("maze.txt");
+
 		if (rand() % 2) {
 			explr.cur.x = rand() % (size - 2) + 1;
 			explr.cur.y = (rand() % 2 ? 0 : size - 1);
@@ -203,15 +215,15 @@ public:
 
 		while (true) {
 			static bool islastTurn = false;
-			for (int i = 3;i;i--) {
+			for (int i = 4;i;i--) {
 				if (isInRange(explr.next())) {
 					explr.goNext();
 					map[explr.cur.x][explr.cur.y] = PATH;
 					islastTurn = false;
 				}
 			}
-			int t = rand() % 10;
-			if(!islastTurn)
+			int t = rand() % 3;
+			if(!islastTurn)				// if went straight in the last turn
 				switch (t) {
 				case 0:
 					explr.turnLeft();
@@ -222,7 +234,7 @@ public:
 					islastTurn = true;
 					break;
 				}
-			if (isBorder(explr.cur))
+			if (isBorder(explr.cur))	// exit when reach border
 				break;
 		}
 		//for (int i = 0;i < size;i++) {
@@ -231,6 +243,21 @@ public:
 		//	mapFile << endl;
 		//}
 		//mapFile.close();
+#else
+		do {
+			entry = Position{ 0, rand() % (size - 2) + 1 };
+			exit = Position{ size - 1, rand() % (size - 2) + 1 };
+		} while (entry == exit);
+		map[entry.x][entry.y] = PATH;
+		map[exit.x][exit.y] = PATH;
+		map[entry.x + 1][entry.y] = PATH;
+		map[exit.x - 1][exit.y] = PATH;
+		for (int cnt = 0;cnt <= MAX_PATH_POINT;cnt++) {
+			int x = rand() % (size - 2) + 1;
+			int y = rand() % (size - 2) + 1;
+			map[x][y] = PATH;
+		}
+#endif
 	}
 };
 
@@ -242,7 +269,7 @@ int main() {
 	std::ios::sync_with_stdio(false);
 	//G.readSize();
 	//G.readMap();
-	G.findEntryAndExit();
+	//G.findEntryAndExit();
 	G.start();
 	return 0;
 }
