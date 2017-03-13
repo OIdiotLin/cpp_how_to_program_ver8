@@ -31,6 +31,21 @@
     <Filter Include="源文件\chapter8">
       <UniqueIdentifier>{07192261-8f5d-45a5-98d7-d2695cc9a0ba}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\chapter9">
+      <UniqueIdentifier>{c222a608-66fc-4745-9187-10ca5c6ccf6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chapter10">
+      <UniqueIdentifier>{015146c2-5d8c-4f48-b014-990fc1446ca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chapter9\9-7">
+      <UniqueIdentifier>{db5b8e61-cb5c-4dd3-b565-353d1ba9a94b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\chapter9">
+      <UniqueIdentifier>{4b54cf0b-547d-42fb-a4c9-eae9fb4c3619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\chapter9\9-7">
+      <UniqueIdentifier>{dbec1b13-df60-4970-8eb7-d826478e0c31}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="chapter2\2-16.cpp">
@@ -207,5 +222,16 @@
     <ClCompile Include="chapter8\8-17.cpp">
       <Filter>源文件\chapter8</Filter>
     </ClCompile>
+    <ClCompile Include="chapter9\9-7\Time.cpp">
+      <Filter>源文件\chapter9\9-7</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter9\9-7\client.cpp">
+      <Filter>源文件\chapter9\9-7</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="chapter9\9-7\Time.h">
+      <Filter>头文件\chapter9\9-7</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
