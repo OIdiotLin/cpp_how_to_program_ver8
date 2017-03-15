@@ -79,9 +79,12 @@
     <ClCompile Include="chapter8\8-17.cpp" />
     <ClCompile Include="chapter9\9-7\client.cpp" />
     <ClCompile Include="chapter9\9-7\Time.cpp" />
+    <ClCompile Include="chapter9\9-8\Date.cpp" />
+    <ClCompile Include="chapter9\9-8\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter9\9-7\Time.h" />
+    <ClInclude Include="chapter9\9-8\Date.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{8F8E56AE-9F4F-456F-9C57-E8BEBE967244}</ProjectGuid>
