@@ -80,6 +80,10 @@
     <ClCompile Include="chapter9\9-11\main.cpp" />
     <ClCompile Include="chapter9\9-11\Rectangle.cpp" />
     <ClCompile Include="chapter9\9-13\main.cpp" />
+    <ClCompile Include="chapter9\9-13\Point.cpp" />
+    <ClCompile Include="chapter9\9-13\Rectangle.cpp" />
+    <ClCompile Include="chapter9\9-14\HugeInteger.cpp" />
+    <ClCompile Include="chapter9\9-14\main.cpp" />
     <ClCompile Include="chapter9\9-7\client.cpp" />
     <ClCompile Include="chapter9\9-7\Time.cpp" />
     <ClCompile Include="chapter9\9-8\Date.cpp" />
@@ -91,6 +95,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter9\9-11\Rectangle.h" />
+    <ClInclude Include="chapter9\9-13\Point.h" />
+    <ClInclude Include="chapter9\9-13\Rectangle.h" />
+    <ClInclude Include="chapter9\9-14\HugeInteger.h" />
     <ClInclude Include="chapter9\9-7\Time.h" />
     <ClInclude Include="chapter9\9-8\Date.h" />
     <ClInclude Include="chapter9\9-9\Date.h" />

@@ -70,6 +70,12 @@
     <Filter Include="头文件\chapter9\9-13">
       <UniqueIdentifier>{6f2b2add-888f-471b-916b-2b812c527db6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\chapter9\9-14">
+      <UniqueIdentifier>{0f9c584a-d1ae-4896-99ce-87fa8f9c795d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chapter9\9-14">
+      <UniqueIdentifier>{d370b8c3-dca4-4324-a46c-f12493b34f00}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="chapter2\2-16.cpp">
@@ -279,6 +285,18 @@
     <ClCompile Include="chapter9\9-13\main.cpp">
       <Filter>源文件\chapter9\9-13</Filter>
     </ClCompile>
+    <ClCompile Include="chapter9\9-13\Rectangle.cpp">
+      <Filter>源文件\chapter9\9-13</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter9\9-13\Point.cpp">
+      <Filter>源文件\chapter9\9-13</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter9\9-14\main.cpp">
+      <Filter>源文件\chapter9\9-14</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter9\9-14\HugeInteger.cpp">
+      <Filter>源文件\chapter9\9-14</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter9\9-7\Time.h">
@@ -298,6 +316,15 @@
     </ClInclude>
     <ClInclude Include="chapter9\9-11\Rectangle.h">
       <Filter>头文件\chapter9\9-11</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter9\9-13\Rectangle.h">
+      <Filter>头文件\chapter9\9-13</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter9\9-13\Point.h">
+      <Filter>头文件\chapter9\9-13</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter9\9-14\HugeInteger.h">
+      <Filter>头文件\chapter9\9-14</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
