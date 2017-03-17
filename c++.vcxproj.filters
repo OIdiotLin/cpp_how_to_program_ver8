@@ -58,6 +58,18 @@
     <Filter Include="源文件\chapter9\9-9">
       <UniqueIdentifier>{d6b1b1d3-4f49-41e5-aa14-38239ea58c24}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\chapter9\9-11">
+      <UniqueIdentifier>{bd5743a2-7cb0-41fc-91d8-f3fd3b48da61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\chapter9\9-11">
+      <UniqueIdentifier>{970230c7-09bf-4510-bc95-c9b991a22347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chapter9\9-13">
+      <UniqueIdentifier>{a2bf2102-5d20-45bc-8a3d-1adb5b33fa94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\chapter9\9-13">
+      <UniqueIdentifier>{6f2b2add-888f-471b-916b-2b812c527db6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="chapter2\2-16.cpp">
@@ -258,6 +270,15 @@
     <ClCompile Include="chapter9\9-9\main.cpp">
       <Filter>源文件\chapter9\9-9</Filter>
     </ClCompile>
+    <ClCompile Include="chapter9\9-11\main.cpp">
+      <Filter>源文件\chapter9\9-11</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter9\9-11\Rectangle.cpp">
+      <Filter>源文件\chapter9\9-11</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter9\9-13\main.cpp">
+      <Filter>源文件\chapter9\9-13</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter9\9-7\Time.h">
@@ -274,6 +295,9 @@
     </ClInclude>
     <ClInclude Include="chapter9\9-9\DateAndTime.h">
       <Filter>头文件\chapter9\9-9</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter9\9-11\Rectangle.h">
+      <Filter>头文件\chapter9\9-11</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -77,6 +77,9 @@
     <ClCompile Include="chapter8\8-15.cpp" />
     <ClCompile Include="chapter8\8-16.cpp" />
     <ClCompile Include="chapter8\8-17.cpp" />
+    <ClCompile Include="chapter9\9-11\main.cpp" />
+    <ClCompile Include="chapter9\9-11\Rectangle.cpp" />
+    <ClCompile Include="chapter9\9-13\main.cpp" />
     <ClCompile Include="chapter9\9-7\client.cpp" />
     <ClCompile Include="chapter9\9-7\Time.cpp" />
     <ClCompile Include="chapter9\9-8\Date.cpp" />
@@ -87,6 +90,7 @@
     <ClCompile Include="chapter9\9-9\Time.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="chapter9\9-11\Rectangle.h" />
     <ClInclude Include="chapter9\9-7\Time.h" />
     <ClInclude Include="chapter9\9-8\Date.h" />
     <ClInclude Include="chapter9\9-9\Date.h" />
